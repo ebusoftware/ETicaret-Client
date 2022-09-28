@@ -15,7 +15,7 @@ import { ComponentsModule } from './layout/components/components.module';
 
   ],
   exports:  [
-    LayoutModule,
+    LayoutModule, //çıktısını vermemeyi unutma!
   ]
 })
 export class AdminModule { }

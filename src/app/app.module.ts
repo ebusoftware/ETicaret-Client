@@ -5,6 +5,7 @@ import { AdminModule } from './admin/admin.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UiModule } from './ui/ui.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
 
 @NgModule({
   declarations: [
@@ -13,7 +14,9 @@ import { UiModule } from './ui/ui.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AdminModule, UiModule
+    AdminModule, 
+    UiModule,
+    BrowserAnimationsModule //dahil edilmez ise sayfalar arası geçiş olmaz
   ],
   providers: [],
   bootstrap: [AppComponent]
