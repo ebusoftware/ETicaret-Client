@@ -10,11 +10,8 @@ import { CustomToastrService, ToastrMessageType, ToastrPosition } from './servic
 })
 export class AppComponent {
   title = 'ETicaretClient';
-  constructor(private toastrService: CustomToastrService){
-    toastrService.message("Merhaba","Ebubekir",{
-      messageType: ToastrMessageType.Success,
-      position: ToastrPosition.BottomRight
-    });
+  constructor(){
+    
     
   }
 }
