@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { BaseComponent } from './base/base.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -21,9 +22,12 @@ import { BaseComponent } from './base/base.component';
     UiModule,
     BrowserAnimationsModule, //dahil edilmez ise sayfalar arası geçiş olmaz
     ToastrModule.forRoot(),
-    NgxSpinnerModule
+    NgxSpinnerModule,
+    HttpClientModule //httpclient' ı kullanabilmek için ekledik.
   ],
-  providers: [],
+  providers: [
+    {provide: "baseUrl",useValue:"Https://localhost:7206/api",multi:true}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
