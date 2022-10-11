@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LayoutModule } from './layout/layout.module';
-import { ComponentsModule } from './layout/components/components.module';
-import { HttpClientModule } from '@angular/common/http';
+import { ComponentsModule } from './components/components.module';
 
 
 
@@ -11,14 +10,10 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     CommonModule,
     LayoutModule,
-    ComponentsModule,
-    HttpClientModule,
-
-
+    ComponentsModule
   ],
-  exports:  [
-    LayoutModule, //çıktısını vermeyi unutma!
-    
+  exports: [
+    LayoutModule
   ]
 })
 export class AdminModule { }
