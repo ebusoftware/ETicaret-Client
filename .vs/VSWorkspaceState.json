@@ -5,11 +5,13 @@
     "\\src\\app",
     "\\src\\app\\admin",
     "\\src\\app\\admin\\components",
-    "\\src\\app\\directives",
-    "\\src\\app\\directives\\admin",
+    "\\src\\app\\admin\\components\\products",
+    "\\src\\app\\admin\\components\\products\\list",
+    "\\src\\app\\dialogs",
     "\\src\\app\\services",
     "\\src\\app\\services\\common",
     "\\src\\app\\services\\common\\file-upload"
   ],
+  "SelectedNode": "\\src\\app\\admin\\components\\products\\list\\list.component.html",
   "PreviewInSolutionExplorer": false
 }
