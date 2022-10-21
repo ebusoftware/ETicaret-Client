@@ -7,7 +7,8 @@ import { UiModule } from './ui/ui.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
 import { NgxSpinnerModule } from 'ngx-spinner';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http'
+import { JwtModule } from '@auth0/angular-jwt'
 
 
 @NgModule({
@@ -21,7 +22,14 @@ import { HttpClientModule } from '@angular/common/http';
     AdminModule, UiModule,
     ToastrModule.forRoot(),
     NgxSpinnerModule,
-    HttpClientModule
+    HttpClientModule,
+    HttpClientModule,
+    JwtModule.forRoot({
+      config: {
+        tokenGetter: () => localStorage.getItem("accessToken"),
+        allowedDomains: ["localhost:7206"] //sadece kontrol,api yi bu domaine izin veriyoruz
+      }
+    })
   ],
   providers: [
     { provide: "baseUrl", useValue: "https://localhost:7206/api", multi: true }
