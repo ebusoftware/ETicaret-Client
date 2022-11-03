@@ -3,12 +3,9 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\contracts",
-    "\\src\\app\\contracts\\Token",
-    "\\src\\app\\services",
     "\\src\\app\\services\\common",
     "\\src\\app\\services\\common\\models"
   ],
-  "SelectedNode": "\\src\\app\\services\\common\\models\\user-auth.service.ts",
+  "SelectedNode": "\\src\\app\\admin",
   "PreviewInSolutionExplorer": false
 }
