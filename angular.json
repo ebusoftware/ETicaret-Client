@@ -36,15 +36,24 @@
               "node_modules/ngx-toastr/toastr-old.css",
               "node_modules/ngx-spinner/animations/ball-clip-rotate-multiple.css",
               "node_modules/ngx-spinner/animations/ball-atom.css",
-              "node_modules/ngx-spinner/animations/ball-spin-clockwise-fade-rotating.css"
+              "node_modules/ngx-spinner/animations/ball-spin-clockwise-fade-rotating.css",
+              "src/assets/css/nucleo-icons.css",
+              "src/assets/css/nucleo-svg.css",
+              "src/assets/css/material-dashboard.css"
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.js" ,
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.js",
               "node_modules/jquery/dist/jquery.min.js",
-              "node_modules/alertifyjs/build/alertify.min.js"
-              
-              
+              "node_modules/alertifyjs/build/alertify.min.js",
+              "src/assets/js/core/popper.min.js",
+              "src/assets/js/core/bootstrap.min.js",
+              "src/assets/js/plugins/perfect-scrollbar.min.js",
+              "src/assets/js/plugins/smooth-scrollbar.min.js",
+              "src/assets/js/plugins/chartjs.min.js",
+              "src/assets/js/material-dashboard.min.js"
+
+
             ]
           },
           "configurations": {
@@ -112,8 +121,7 @@
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
-              "src/styles.scss",
-              ""
+              "src/styles.scss"
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.min.js"
