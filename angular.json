@@ -31,6 +31,7 @@
               "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.scss",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/bootstrap-icons/font/bootstrap-icons.css",
               "node_modules/alertifyjs/build/css/alertify.min.css",
               "node_modules/alertifyjs/build/css/themes/semantic.min.css",
               "node_modules/ngx-toastr/toastr-old.css",
@@ -40,6 +41,7 @@
               "src/assets/css/nucleo-icons.css",
               "src/assets/css/nucleo-svg.css",
               "src/assets/css/material-dashboard.css"
+
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.min.js",

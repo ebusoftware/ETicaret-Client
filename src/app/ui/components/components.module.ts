@@ -7,6 +7,7 @@ import { RegisterComponent } from './register/register.component';
 import { RegisterModule } from './register/register.module';
 import { LoginComponent } from './login/login.component';
 import { LoginModule } from './login/login.module';
+import { BasketsComponent } from './baskets/baskets.component';
 @NgModule({
   declarations: [],
   imports: [
@@ -16,6 +17,9 @@ import { LoginModule } from './login/login.module';
     BasketsModule,
     RegisterModule,
     //LoginModule
+  ],
+  exports: [
+    BasketsComponent
   ]
 })
 export class ComponentsModule { }
